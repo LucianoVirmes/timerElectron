@@ -1,7 +1,7 @@
 const {ipcRenderer, shell} = require('electron');
 const process = require("process");
 
-let linkFechar = document.querySelector("#linkFechar");
+let linkFechar = document.querySelector("#link-fechar");
 let linkAutor = document.querySelector("#autorLink");
 let versaoElectron = document.querySelector("#versaoElectron");
 
